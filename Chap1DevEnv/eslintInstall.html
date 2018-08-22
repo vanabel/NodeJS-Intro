@@ -1,0 +1,517 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第三节. Eslint的安装 · NodeJS学习入门</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Van ABel">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-spoiler/spoiler.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="packageJson.html" />
+    
+    
+    <link rel="prev" href="nodejsInstall.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://github.com/vanabel" target="_blank" class="custom-link">GitBook</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    NodeJS入门实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    第一章. 开发环境的搭建
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="vimconfig.html">
+            
+                <a href="vimconfig.html">
+            
+                    
+                    第一节. Vim的配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="nodejsInstall.html">
+            
+                <a href="nodejsInstall.html">
+            
+                    
+                    第二节. NodeJS的安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="eslintInstall.html">
+            
+                <a href="eslintInstall.html">
+            
+                    
+                    第三节. Eslint的安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="packageJson.html">
+            
+                <a href="packageJson.html">
+            
+                    
+                    第四节. 使用Package.json
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Chap2WebServ/">
+            
+                <a href="../Chap2WebServ/">
+            
+                    
+                    第二章. 一个简单的NodeJS网页服务器
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Chap2WebServ/HelloWorld.html">
+            
+                <a href="../Chap2WebServ/HelloWorld.html">
+            
+                    
+                    第一节. 世界你好
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Chap2WebServ/nonameFun.html">
+            
+                <a href="../Chap2WebServ/nonameFun.html">
+            
+                    
+                    第二节. 回调函数与事件驱动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Chap2WebServ/routerModule.html">
+            
+                <a href="../Chap2WebServ/routerModule.html">
+            
+                    
+                    第三节. 路由模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Chap2WebServ/handleRouter.html">
+            
+                <a href="../Chap2WebServ/handleRouter.html">
+            
+                    
+                    第四节. 路由功能的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Chap2WebServ/nonBlocking.html">
+            
+                <a href="../Chap2WebServ/nonBlocking.html">
+            
+                    
+                    第五节. 非阻塞操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../Chap2WebServ/previewmarkdown.html">
+            
+                <a href="../Chap2WebServ/previewmarkdown.html">
+            
+                    
+                    第六节. 预览与Markdown排版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../Chap2WebServ/postreq.html">
+            
+                <a href="../Chap2WebServ/postreq.html">
+            
+                    
+                    第七节. 使用POST发送请求
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Chap3VEU/">
+            
+                <a href="../Chap3VEU/">
+            
+                    
+                    第三章. VUE+BOOTSTRAP作为前端
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第三节. Eslint的安装</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x7B2C;&#x4E09;&#x8282;-eslint&#x7684;&#x5B89;&#x88C5;"><a name="&#x7B2C;&#x4E09;&#x8282;-eslint&#x7684;&#x5B89;&#x88C5;" class="plugin-anchor" href="#&#x7B2C;&#x4E09;&#x8282;-eslint&#x7684;&#x5B89;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7B2C;&#x4E09;&#x8282;. Eslint&#x7684;&#x5B89;&#x88C5;</h3>
+<p>&#x9996;&#x5148;&#xFF0C; &#x6211;&#x4EEC;&#x5047;&#x8BBE;&#x6211;&#x4EEC;&#x6240;&#x6709;&#x7684;NodeJS&#x6587;&#x4EF6;&#x90FD;&#x5728;<code>src</code>&#x76EE;&#x5F55;&#x4E0B;&#x3002;&#x5E76;&#x5DF2;&#x7ECF;&#x5207;&#x6362;&#x5230;&#x8BE5;&#x76EE;&#x5F55;&#x3002;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5982;&#x4E0B;&#x547D;&#x4EE4;&#x6765;&#x5168;&#x5C40;&#x5B89;&#x88C5;<code>eslint</code></p>
+<pre><code class="lang-bash">npm install -g eslint
+</code></pre>
+<p>&#x6CE8;&#x610F;&#xFF0C;&#x8FD9;&#x91CC;&#x5FC5;&#x987B;&#x4F7F;&#x7528;&#x5168;&#x5C40;&#x5B89;&#x88C5;&#xFF0C;&#x5426;&#x5219;<code>Syntastic</code>&#x63D2;&#x4EF6;&#x627E;&#x4E0D;&#x5230;<code>eslint</code>.</p>
+<p>&#x63A5;&#x4E0B;&#x6765;&#xFF0C; &#x6211;&#x4EEC;&#x9700;&#x8981;&#x521D;&#x59CB;&#x5316;<code>.eslintrc</code>, &#x5728;<code>src</code>&#x4E0B;&#x65B0;&#x5EFA;<code>.eslintrc</code>, &#x5185;&#x5BB9;&#x5982;&#x4E0B;:</p>
+<pre><code class="lang-eslint">{
+  &quot;env&quot;: {
+    &quot;node&quot;: true
+  },
+  &quot;rules&quot;: {
+    &quot;array-bracket-spacing&quot;: [2, &quot;never&quot;],
+    &quot;block-scoped-var&quot;: 2,
+    &quot;brace-style&quot;: [2, &quot;1tbs&quot;],
+    &quot;camelcase&quot;: 1,
+    &quot;computed-property-spacing&quot;: [2, &quot;never&quot;],
+    &quot;curly&quot;: 2,
+    &quot;eol-last&quot;: 2,
+    &quot;eqeqeq&quot;: [2, &quot;smart&quot;],
+    &quot;max-depth&quot;: [1, 3],
+    &quot;max-len&quot;: [1, 80],
+    &quot;max-statements&quot;: [1, 15],
+    &quot;new-cap&quot;: 1,
+    &quot;no-extend-native&quot;: 2,
+    &quot;no-mixed-spaces-and-tabs&quot;: 2,
+    &quot;no-trailing-spaces&quot;: 2,
+    &quot;no-unused-vars&quot;: 1,
+    &quot;no-use-before-define&quot;: [2, &quot;nofunc&quot;],
+    &quot;object-curly-spacing&quot;: [2, &quot;never&quot;],
+    &quot;quotes&quot;: [2, &quot;single&quot;, &quot;avoid-escape&quot;],
+    &quot;semi&quot;: [2, &quot;always&quot;],
+    &quot;keyword-spacing&quot;: [2, {&quot;before&quot;: true, &quot;after&quot;: true}],
+    &quot;space-unary-ops&quot;: 2
+  }
+}
+</code></pre>
+<h4 id="&#x6D4B;&#x8BD5;"><a name="&#x6D4B;&#x8BD5;" class="plugin-anchor" href="#&#x6D4B;&#x8BD5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6D4B;&#x8BD5;</h4>
+<p>&#x4F5C;&#x4E3A;&#x6D4B;&#x8BD5;&#xFF0C; &#x4F60;&#x53EF;&#x4EE5;&#x65B0;&#x5EFA;&#x5982;&#x4E0B;<code>test.js</code></p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> HttpTEST=<span class="hljs-literal">null</span>
+</code></pre>
+<p>&#x7136;&#x540E;&#x8FD0;&#x884C;<code>eslint test.js</code>. </p>
+<blockquote>
+<p>test.js|1 col 5 warning| &apos;HttpTEST&apos; is assigned a value but never used. (no-unused-vars)</p>
+</blockquote>
+<p>&#x8868;&#x793A;HttpTest&#x662F;&#x4E00;&#x4E2A;&#x6CA1;&#x6709;&#x4F7F;&#x7528;&#x7684;&#x53D8;&#x91CF;&#xFF08;&#x6D6A;&#x8D39;&#x8D44;&#x6E90;&#xFF09;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="nodejsInstall.html" class="navigation navigation-prev " aria-label="Previous page: 第二节. NodeJS的安装">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="packageJson.html" class="navigation navigation-next " aria-label="Next page: 第四节. 使用Package.json">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第三节. Eslint的安装","level":"1.2.3","depth":2,"next":{"title":"第四节. 使用Package.json","level":"1.2.4","depth":2,"path":"Chap1DevEnv/packageJson.md","ref":"Chap1DevEnv/packageJson.md","articles":[]},"previous":{"title":"第二节. NodeJS的安装","level":"1.2.2","depth":2,"path":"Chap1DevEnv/nodejsInstall.md","ref":"Chap1DevEnv/nodejsInstall.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","theme-comscore","anchors","disqus","spoiler"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"vanabel.cn"},"spoiler":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","author":"Van ABel","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"NodeJS学习入门","links":{"sharing":{"all":null,"facebook":null,"google":null,"weibo":null},"sidebar":{"GitBook":"http://github.com/vanabel"}},"gitbook":"*"},"file":{"path":"Chap1DevEnv/eslintInstall.md","mtime":"2018-05-01T11:25:04.813Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-21T23:59:24.494Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-spoiler/spoiler.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
